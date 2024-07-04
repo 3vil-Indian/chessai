@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    height: 200px;
+    background: rgba(240, 240, 240, 0.95);
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: default;
+  }
+  
+  .popup-header {
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    cursor: move;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .popup-content {
+    padding: 10px;
+  }
+  
+  .close-btn {
+    cursor: pointer;
+    font-size: 20px;
+  }
+/* The slider */
+.slider_uVp6R4qBjNtQx3M {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* The slider */
+    .slider_uVp6R4qBjNtQx3M {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider_uVp6R4qBjNtQx3M:before {
+      /* background-color: gray; */
+      position: absolute;
+      content: "\f43f";
+      /* FontAwesome chess king unicode */
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: 26px;
+      color: white;
+      left: 6px;
+      bottom: -1px;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked+.slider_uVp6R4qBjNtQx3M:before {
+      color: black;
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider_uVp6R4qBjNtQx3M.round {
+      border-radius: 34px;
+    }
+
+    .slider_uVp6R4qBjNtQx3M.round:before {
+      border-radius: 50%;
+    }:before {
+  /* background-color: gray; */
+  position: absolute;
+  content: "\f43f";
+  /* FontAwesome chess king unicode */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 26px;
+  color: white;
+  left: 6px;
+  bottom: -1px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider_uVp6R4qBjNtQx3M:before {
+  color: black;
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider_uVp6R4qBjNtQx3M.round {
+  border-radius: 34px;
+}
+
+.slider_uVp6R4qBjNtQx3M.round:before {
+  border-radius: 50%;
+}
